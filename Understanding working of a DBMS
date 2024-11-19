@@ -1,0 +1,7 @@
+-- what happens when user enters a SQL request 
+The client sends a SQL query to DBMS (which is installed in server), the client communicates with the DBMS with a communication protocol ODBC , JDBC
+the request reaches the DBMS through various databse components which are present in the RAM and they are also interacting with the databsae files on disk 
+-- above mentioned components :
+listener - recieves incoming SQL queriesfrom clients and passes them to correct DBMS process
+user process is initiated for each session(what s asessin , is it like individual request , such as select or the whatever queres have been passd in a particular time frame) that client makes to DBMS , 
+the process basically consist of sending requests and recieving respinse and handling errors 
